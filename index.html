@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <meta name="description" content="A showcase of my projects and skills as a web developer.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Phosphor Icons for modern sleek icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body class="dark-theme">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Portfolio.</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#certifications" class="nav__link">Certifications</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ph ph-x"></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <i class="ph ph-moon theme-toggle" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ph ph-list"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- HERO SECTION -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__subtitle">Hello, I'm Atharv Borle</span>
+                    <h1 class="home__title">Cloud Engineer &<br><span>Web Developer</span></h1>
+                    <p class="home__description">
+                        AWS Certified Cloud Practitioner and full-stack developer. I craft scalable cloud architectures
+                        and engaging digital experiences, turning complex problems into robust solutions.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="#projects" class="button">View Work <i class="ph ph-arrow-right"></i></a>
+                        <a href="#contact" class="button button--ghost">Contact Me</a>
+                    </div>
+                </div>
+                <div class="home__images">
+                    <div class="home__img-box">
+                        <img src="profilelong.png" alt="Profile avatar" class="home__img"
+                            style="border-radius: 2rem; width: 100%; height: 100%; object-fit: cover;">
+                        <div class="home__glass-card">
+                            <i class="ph-fill ph-code"></i>
+                            <span>Clean Code</span>
+                        </div>
+                        <div class="home__glass-card home__glass-card--2">
+                            <i class="ph-fill ph-paint-brush"></i>
+                            <span>Modern Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <p class="about__description">
+                        Passionate Cloud Engineer and Web Developer. I specialize in AWS cloud infrastructure and modern
+                        web technologies. With a strong foundation in both frontend interfaces and scalable backend
+                        systems, I'm always eager to learn and implement new workflows to deliver high-performance
+                        applications.
+                    </p>
+
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class="ph ph-graduation-cap about__icon"></i>
+                            <h3 class="about__title">Degree</h3>
+                            <span class="about__subtitle">B.Tech in Computer Science</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="ph ph-medal about__icon"></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">Web & Cloud</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="ph ph-briefcase about__icon"></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">20+ Projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+
+            <div class="skills__container container grid">
+                <!-- Frontend -->
+                <div class="skills__content glass-panel reveal">
+                    <h3 class="skills__title"><i class="ph ph-brackets-curly"></i> Frontend Developer</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="ph-fill ph-check-circle"></i>
+                                <div>
+                                    <h4 class="skills__name">HTML</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="ph-fill ph-check-circle"></i>
+                                <div>
+                                    <h4 class="skills__name">CSS/SCSS</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="ph-fill ph-check-circle"></i>
+                                <div>
+                                    <h4 class="skills__name">JavaScript</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="ph-fill ph-check-circle"></i>
+                                <div>
+                                    <h4 class="skills__name">React</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="ph-fill ph-check-circle"></i>
+                                <div>
+                                    <h4 class="skills__name">Tailwind</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="ph-fill ph-check-circle"></i>
+                                <div>
+                                    <h4 class="skills__name">Git</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloud/Backend -->
+                <div class="skills__content glass-panel reveal delay-1">
+                    <h3 class="skills__title"><i class="ph ph-cloud"></i> Cloud & Backend</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="ph-fill ph-check-circle"></i>
+                                <div>
+                                    <h4 class="skills__name">AWS</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="ph-fill ph-check-circle"></i>
+                                <div>
+                                    <h4 class="skills__name">Node.js</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="ph-fill ph-check-circle"></i>
+                                <div>
+                                    <h4 class="skills__name">Python/Django</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="ph-fill ph-check-circle"></i>
+                                <div>
+                                    <h4 class="skills__name">Docker</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="ph-fill ph-check-circle"></i>
+                                <div>
+                                    <h4 class="skills__name">PostgreSQL</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="ph-fill ph-check-circle"></i>
+                                <div>
+                                    <h4 class="skills__name">Git</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS SECTION -->
+        <section class="certifications section" id="certifications">
+            <h2 class="section__title">Certifications</h2>
+            <span class="section__subtitle">My professional achievements</span>
+
+            <div class="certifications__container container grid">
+                <!-- Wrap the entire card in a link pointing to the PDF -->
+                <a href="certification.pdf" target="_blank"
+                    style="text-decoration: none; display: block; color: inherit;">
+                    <article class="certifications__card glass-panel reveal" style="cursor: pointer;">
+                        <div class="certifications__icon-box">
+                            <i class="ph-fill ph-certificate"></i>
+                        </div>
+                        <div class="certifications__content">
+                            <h3 class="certifications__title">AWS Certified Cloud Practitioner</h3>
+                            <p class="certifications__issuer">Amazon Web Services (AWS)</p>
+                            <p class="certifications__description">
+                                Validated overall understanding of the AWS Cloud platform, covering basic cloud
+                                concepts, security, architecture, pricing, and support.
+                            </p>
+                        </div>
+                    </article>
+                </a>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="projects__container container grid">
+                <!-- Project 1 -->
+                <article class="projects__card reveal">
+                    <div class="projects__card-inner">
+                        <!-- Front -->
+                        <div class="projects__card-front glass-panel">
+                            <div class="projects__img-wrapper">
+                                <img src="rimcs_cover.png" alt="RIMCS Dashboard" class="projects__img">
+                            </div>
+                            <div class="projects__content">
+                                <span class="projects__subtitle">Enterprise Application</span>
+                                <h3 class="projects__title">RIMCS</h3>
+                                <p class="projects__description">A robust project management and reporting system built
+                                    with
+                                    modern frontend frameworks and database integration.</p>
+                                <a href="javascript:void(0)" class="projects__button"
+                                    onclick="this.closest('.projects__card').classList.toggle('flipped')">See Details <i
+                                        class="ph ph-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- Back -->
+                        <div class="projects__card-back glass-panel">
+                            <h3 class="projects__card-back-title">RIMCS</h3>
+                            <p class="projects__card-back-desc">
+                                Full-stack enterprise solution managing work updates, dynamic dashboards, and secure
+                                role-based access for officers and admin staff.
+                            </p>
+                            <a href="https://rimcs.atharvborle.in/" target="_blank" class="button">Visit Live Site <i
+                                    class="ph ph-external-link"></i></a>
+                            <a href="javascript:void(0)" class="button button--ghost" style="margin-top: 1rem;"
+                                onclick="this.closest('.projects__card').classList.toggle('flipped')">Go Back</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="projects__card reveal delay-1">
+                    <div class="projects__card-inner">
+                        <!-- Front -->
+                        <div class="projects__card-front glass-panel">
+                            <div class="projects__img-wrapper">
+                                <img src="toolsuite_cover.png" alt="Tool Suite Application" class="projects__img">
+                            </div>
+                            <div class="projects__content">
+                                <span class="projects__subtitle">Developer Tooling</span>
+                                <h3 class="projects__title">Tool Suite</h3>
+                                <p class="projects__description">A growing collection of web utilities & tools
+                                    (including DevTools) featuring a modern UI and dark mode.</p>
+                                <a href="javascript:void(0)" class="projects__button"
+                                    onclick="this.closest('.projects__card').classList.toggle('flipped')">See Details <i
+                                        class="ph ph-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- Back -->
+                        <div class="projects__card-back glass-panel">
+                            <h3 class="projects__card-back-title">Tool Suite</h3>
+                            <p class="projects__card-back-desc">
+                                A continuously expanding suite of utilities designed to simplify developer and user
+                                workflows. More tools currently in active development.
+                            </p>
+                            <a href="https://tools.atharvborle.in/" target="_blank" class="button">Visit Live Site <i
+                                    class="ph ph-external-link"></i></a>
+                            <a href="javascript:void(0)" class="button button--ghost" style="margin-top: 1rem;"
+                                onclick="this.closest('.projects__card').classList.toggle('flipped')">Go Back</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="projects__card reveal delay-2">
+                    <div class="projects__card-inner">
+                        <!-- Front -->
+                        <div class="projects__card-front glass-panel">
+                            <div class="projects__img-wrapper">
+                                <img src="bookstore_cover.png" alt="Online Bookstore" class="projects__img">
+                            </div>
+                            <div class="projects__content">
+                                <span class="projects__subtitle">E-commerce Platform</span>
+                                <h3 class="projects__title">Online Bookstore</h3>
+                                <p class="projects__description">A full-stack book store application handling user
+                                    authentication, order management, and responsive UI.</p>
+                                <a href="javascript:void(0)" class="projects__button"
+                                    onclick="this.closest('.projects__card').classList.toggle('flipped')">See Details <i
+                                        class="ph ph-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- Back -->
+                        <div class="projects__card-back glass-panel">
+                            <h3 class="projects__card-back-title">Online Bookstore</h3>
+                            <p class="projects__card-back-desc">
+                                Integrated shopping cart, user session handling, and secure checkout using modern best
+                                practices and dynamic page rendering.
+                            </p>
+                            <a href="https://github.com" target="_blank" class="button">View Codebase <i
+                                    class="ph ph-github-logo"></i></a>
+                            <a href="javascript:void(0)" class="button button--ghost" style="margin-top: 1rem;"
+                                onclick="this.closest('.projects__card').classList.toggle('flipped')">Go Back</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div class="contact__info">
+                    <div class="contact__card glass-panel reveal">
+                        <i class="ph ph-envelope contact__card-icon"></i>
+                        <h3 class="contact__card-title">Email</h3>
+                        <span class="contact__card-data">atharvbborle@gmail.com</span>
+                        <a href="mailto:atharvbborle@gmail.com" class="contact__button">Write me <i
+                                class="ph ph-arrow-right"></i></a>
+                    </div>
+
+                    <div class="contact__card glass-panel reveal delay-1">
+                        <i class="ph ph-whatsapp-logo contact__card-icon"></i>
+                        <h3 class="contact__card-title">Whatsapp</h3>
+                        <span class="contact__card-data">7385633062</span>
+                        <a href="https://wa.me/917385633062" target="_blank" class="contact__button">Write me <i
+                                class="ph ph-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact__content reveal delay-2">
+                    <form action="mailto:atharvbborle@gmail.com" method="GET" enctype="text/plain"
+                        class="contact__form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Name</label>
+                            <input type="text" name="subject" placeholder="Insert your name" class="contact__form-input"
+                                required>
+                        </div>
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Message</label>
+                            <textarea name="body" id="" cols="30" rows="10" placeholder="Write your message"
+                                class="contact__form-input" required></textarea>
+                        </div>
+                        <button type="submit" class="button">Send Message <i
+                                class="ph ph-paper-plane-tilt"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Portfolio.</h1>
+            <ul class="footer__list">
+                <li><a href="#about" class="footer__link">About</a></li>
+                <li><a href="#projects" class="footer__link">Projects</a></li>
+                <li><a href="#skills" class="footer__link">Skills</a></li>
+            </ul>
+            <div class="footer__social">
+                <a href="https://github.com/AtharvBorle" target="_blank" class="footer__social-link"><i
+                        class="ph ph-github-logo"></i></a>
+                <a href="https://www.linkedin.com/in/atharv-borle" target="_blank" class="footer__social-link"><i
+                        class="ph ph-linkedin-logo"></i></a>
+            </div>
+            <span class="footer__copy">&#169; 2026. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <!-- SCROLL UP -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ph ph-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
